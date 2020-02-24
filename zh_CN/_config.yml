@@ -1,0 +1,59 @@
+title: ThingsBoard
+name: ThingsBoard
+author: thingsboard
+logo: /images/thingsboard_logo.png
+url: https://thingsboard.io
+
+twitter:
+  username: thingsboard
+
+social:
+  name: ThingsBoard
+  links:
+    - https://twitter.com/thingsboard
+    - https://github.com/thingsboard/thingsboard
+    - https://www.facebook.com/thingsboard
+    - https://www.youtube.com/channel/thingsboard
+
+seo:
+  type: WebSite
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  html_to_native: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+baseurl:
+incremental: true
+
+safe: false
+lsi: false
+
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        path: /images/thingsboard_logo.png
+        twitter: /images/thingsboard_logo.png
+        facebook: /images/thingsboard_logo.png
+      version: "v1.0"
+      githubbranch: "master"
+      docsbranch: "master"
+  -
+    scope:
+      path: docs
+    values:
+      layout: docwithnav
+      showedit: true
+
+permalink: pretty
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag

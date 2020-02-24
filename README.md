@@ -1,3 +1,37 @@
+ThingsBoard 网站（文档）简体中文翻译项目
+=======================================
+
+
+本项目的目标是对 ThingsBoard 网站，特别是文档进行简体中文翻译，并与 [原网站](https://github.com/thingsboard/thingsboard.github.io) 更新内容保持同步。
+
+
+编译版本可直接查看网页 [thingsboard.atjiang.com](http://thingsboard.atjiang.com)。
+
+
+## 项目先前的翻译进度和译者如下
+
+
+## 如何贡献翻译
+
+1. [新建一个 issue](https://github.com/haiiiiiyun/thingsboard.cn/issues/new)，说明要翻译哪部分，注意翻译之前先看看 issues 里面有没有人已经认领了
+2. fork 之后，翻译 `zh_CN` 中的相应文档，并在本地预览，如果不知道如何在本地启动，可以参考[如何在本地启动](https://github.com/haiiiiiyun/thingsboard.cn#如何在本地启动)
+3. 注意在 File metadata 中将自己加入到 `translators` 字段，若无此字段，则添加一个
+4. 注意在 File metadata 中更新 `updated`，若无此字段，则添加一个
+5. 提交一个 pull-request，等待审核
+
+## 如何在本地启动
+
+1. 安装 docker 和 docker-compose
+2. 运行 `docker-compose up`
+3. 在浏览器中访问 `http://127.0.0.1:4000/`
+
+## 如何查看成果
+
+更新内容一旦合并后，可以在 [http://thingsboard.atjiang.com](http://thingsboard.atjiang.com) 上看到成果。
+
+
+# 以下是原 README 内容
+
 ## Instructions for Contributing to the Docs/Website
 
 * [Fork this repository](https://help.github.com/articles/fork-a-repo/)
