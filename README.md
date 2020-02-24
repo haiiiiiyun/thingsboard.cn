@@ -12,6 +12,11 @@ ThingsBoard 网站（文档）简体中文翻译项目
 
 ## 项目翻译进度和译者如下
 
+### _includes/
+
+- [x] \_includes/head-header.html (2020-02-24)
+- [x] \_includes/footer.html (2020-02-24)
+
 
 ## 如何贡献翻译
 
