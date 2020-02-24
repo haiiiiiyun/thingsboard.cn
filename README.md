@@ -4,7 +4,7 @@ ThingsBoard 网站（文档）简体中文翻译项目
 同步于 2020-02-18 日的版本 [1465f29](https://github.com/thingsboard/thingsboard.github.io/commit/1465f29b1194fa92833b06c5d97378c8c04b8eef)。
 
 
-本项目的目标是对 ThingsBoard 网站，特别是文档进行简体中文翻译，并与 [原网站](https://github.com/thingsboard/thingsboard.github.io) 更新内容保持同步。
+本项目的目标是对 ThingsBoard 网站，特别是文档进行简体中文翻译，并与 [原网站](https://github.com/thingsboard/thingsboard.github.io) 内容保持同步。
 
 
 编译版本可直接查看网页 [thingsboard.atjiang.com](http://thingsboard.atjiang.com)。
@@ -16,6 +16,10 @@ ThingsBoard 网站（文档）简体中文翻译项目
 
 - [x] \_includes/head-header.html (2020-02-24)
 - [x] \_includes/footer.html (2020-02-24)
+
+### 根目录下文件
+
+- [x] 404.html (2020-02-24)
 
 
 ## 如何贡献翻译
